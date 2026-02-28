@@ -37,11 +37,10 @@ TicTacToe-Game-JavaScript/
 ├── index.html
 ├── style.css
 ├── game.js
-└── assets/
-    ├── frontpage.png
-    ├── runningGame.png
-    ├── winnerimage.png
-    └── draw.png
+├── frontpage.png
+├── runningGame.png
+├── winnerimage.png
+└── draw.png
 ```
 
 ---
@@ -58,22 +57,22 @@ Reset / New Game Option
 ## 📸 Application Preview
 
 ### 🖥 Front Page
-![Front Page](assets/frontpage.png)
+![Front Page](frontpage.png)
 
 ---
 
 ### ▶️ Running Game
-![Running Game](assets/runningGame.png)
+![Running Game](runningGame.png)
 
 ---
 
 ### 🏆 Winner Screen
-![Winner Screen](assets/winnerimage.png)
+![Winner Screen](winnerimage.png)
 
 ---
 
 ### 🤝 Draw Screen (No Winner After 9 Moves)
-![Draw Screen](assets/draw.png)
+![Draw Screen](draw.png)
 
 ---
 
