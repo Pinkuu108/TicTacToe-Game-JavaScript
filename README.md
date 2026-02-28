@@ -3,6 +3,8 @@
 Tic Tac Toe Game is a browser-based interactive web game developed using HTML, CSS, and Vanilla JavaScript.  
 This project demonstrates core DOM manipulation, event handling, game logic implementation, and dynamic UI updates.
 
+The game also includes draw detection when all 9 boxes are clicked and no winner is found.
+
 ---
 
 ## 🚀 Features
@@ -12,6 +14,7 @@ This project demonstrates core DOM manipulation, event handling, game logic impl
 🔹 Automatic turn switching  
 🔹 Disable box after selection  
 🔹 Winner announcement screen 🎉  
+🔹 Draw detection when 9 moves are completed 🤝  
 🔹 Reset Game functionality 🔄  
 🔹 New Game button  
 
@@ -34,7 +37,11 @@ TicTacToe-Game-JavaScript/
 ├── index.html
 ├── style.css
 ├── game.js
-└── assets (images)
+└── assets/
+    ├── frontpage.png
+    ├── runningGame.png
+    ├── winnerimage.png
+    └── draw.png
 ```
 
 ---
@@ -42,38 +49,45 @@ TicTacToe-Game-JavaScript/
 ## ⚙️ Game Workflow
 
 User Click → Turn Switch (X/O) → Check Win Patterns →  
-Display Winner Message → Reset / New Game Option
+If Winner Found → Show Winner Message  
+If 9 Moves Completed & No Winner → Show Draw Message  
+Reset / New Game Option
 
 ---
 
 ## 📸 Application Preview
 
 ### 🖥 Front Page
-![Front Page](frontpage.png)
+![Front Page](assets/frontpage.png)
 
 ---
 
 ### ▶️ Running Game
-![Running Game](runningGame.png)
+![Running Game](assets/runningGame.png)
 
 ---
 
 ### 🏆 Winner Screen
-![Winner Screen](winnerimage.png)
+![Winner Screen](assets/winnerimage.png)
+
+---
+
+### 🤝 Draw Screen (No Winner After 9 Moves)
+![Draw Screen](assets/draw.png)
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1️⃣ Clone Repository  
+### 1️⃣ Clone Repository
 ```
 git clone https://github.com/Pinkuu108/TicTacToe-Game-JavaScript.git
 ```
 
-2️⃣ Open Folder  
+### 2️⃣ Open Folder
 Open in VS Code or any browser
 
-3️⃣ Run  
+### 3️⃣ Run
 Open `index.html` in your browser
 
 ---
@@ -84,6 +98,7 @@ Open `index.html` in your browser
 🔹 Event Handling  
 🔹 Game Logic Implementation  
 🔹 Array-based Win Pattern Checking  
+🔹 Draw Condition Handling  
 🔹 Clean UI Design  
 
 ---
